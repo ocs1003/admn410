@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Us</title>
+		<link rel="stylesheet" href="styles.css">
+		<style>
+			#map{
+				height: 400 px;
+				width: 50%;
+				background-color: grey;
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Durham House of Pets (DHP)</h1>
+		<nav>
+			<ul>
+			<li><a href="index.html">About Us</a></li>
+			<li><a href="employees.html">Our Team</a></li>
+			<li><a href="products.html">Products</a></li>
+			<li><a href="policies.html">Policies</a></li>
+			<li><a href="Contact_us.html">Contact Us</a></li>
+		</nav>
+			<h2>Contact Us</h2>
+		</header>
+		<header>
+			<h4> Corporate Office</h4>
+		</header>
+		<div id ="map"></div>
+		<script>
+			function initMap() {
+				var mark = {lat: 42.3601, lng: -71.0589};
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom : 8,
+					center: mark
+				});
+				var marker = new google.maps.Marker({
+					position: mark,
+					map: map
+					});
+				}
+		</script>
+		<script async defer
+			src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBpGUYvTxgmmxtMk0Tx0mE4lk4pOx51bwc&callback=initMap">
+		</script>
+		<section>
+			<p>
+				<strong>Address</strong><br />
+				101 Seaport Boulevard <br />
+				Boston, Massachusetts <br />
+				02210 <br />
+				<strong>Phone</strong><br />
+					(617)522-5000<br />
+				<strong>Fax</strong><br />
+					(617)450-4800<br />
+				<strong>E-Mail</strong><br />
+					<a href=mailto:DHP@admn410.com?subject=Corporate%20Inquiry>DHP@admn410.com</a>
+			</p>
+		</section>
+			<header>
+				<h4>Durham, NH Regional Office</h4>
+			</header>
+			<img src="office.jpg"style="width:200px;height:200px;">
+			<p>
+			<strong>Address</strong><br />
+				3 Madbury Road<br />
+				Durham, New Hampshire<br />
+				03824<br />
+			<strong>Phone</strong><br />
+				(603)846-6631<br />
+			<strong>Fax</strong><br />
+				(603)762-2596<br />
+			<strong>E-mail</strong><br />
+				<a href=mailto:DHPD@admn410.com?subject=Regional%20Inquiry>DHPD@admn410.com</a>
+			</p>
+			<header>
+				<h4>Charleston, SC Regional Office</h4>
+			</header>
+			<img src="office1.jpg"style="width:250px;height:200px;">
+			<p>
+			<strong>Address</strong><br />
+				370 King Street <br />
+				Charleston, South Carolina<br />
+				29401<br />
+			<strong>Phone</strong><br />
+				(843)788-5521<br />
+			<strong>Fax</strong><br />
+				(843)562-6731<br />
+			<strong>E-mail</strong><br />
+				<a href=mailto:DHPCHS@admn410.com?subject=Regional%20Inquiry>DHPCHS@admn410.com</a>
+			</p>
+			<header>
+				<h4>Burlington, VT Regional Office</h4>
+			</header>
+			<img src="office2.jpg"style="width:200px;height:200px;">
+			<p>
+			<strong>Address</strong><br />
+				136 Church Street<br />
+				Burlington, Vermont<br />
+				05401<br />
+			<strong>Phone</strong><br />
+				(802)580-9875<br />
+			<strong>Fax</strong><br />
+				(802)657-9935 <br />
+			<strong>E-Mail</strong><br />
+				<a href=mailto:DHPBTV@admn410.com?subject=Regional%20Inquiry>DHPBTV@admn410.com</a>
+			</p>
+		<footer>
+			<a href=https://www.facebook.com/Durham-House-of-Pets-501449136854501/><img src="facebook.png"</img></a>
+		</footer>
+	</body>
+</html>

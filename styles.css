@@ -1,0 +1,49 @@
+body {
+	background-color: powderblue;
+}
+header {
+	color: blue;
+}
+
+p {
+	color: black;
+}
+
+li{
+	display:inline;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;  
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.section {
+    text-align: right;
+}
+header {background: Grey;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+#map {
+   height: 400px;
+   width: 100%;
+}
+h1{
+	text-align: center;
+}
